@@ -1,0 +1,218 @@
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/cards.css");
+@import url("components/navbar.css");
+
+body {
+  margin-top: 100px;
+  font-size: 18px;
+  margin: 0px;
+  background-color: #FFFBE9;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+h1 {
+	color: white;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.slogan {
+	color: #DFE2DF;
+}
+.solutions {
+	background-image: url(../images/banner.jpg);   
+	background-size: cover;     
+	background-position: center;
+	padding: 50px 20px;
+	margin-top: 90px;
+}
+
+.presentation {
+  padding: 20px;
+}
+
+.solutions h2 {
+	color: #DFE2DF;
+}
+.bar {
+  background-color: #333;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+li {
+  height: 100%;
+}
+
+
+.rating:not(:checked) > input {
+  position: absolute;
+  appearance: none;
+}
+
+.rating:not(:checked) > label {
+  float: right;
+  cursor: pointer;
+  font-size: 35px;
+  color: #666;
+  padding: 3px;
+}
+
+.rating:not(:checked) > label:before {
+  content: '★';
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: #e58e09;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #ff9e0b;
+}
+
+.rating > input:checked ~ label {
+  color: #ffa723;
+}
+
+.card__content h3 {
+	padding: 5px;
+}
+
+.cardss {
+ width: 250px;
+ height: 160px;
+ margin: 0 auto;
+ margin-bottom: 10px;
+ background-color: #F8FBFE;
+ border-radius: 10px;
+ z-index: 1;
+}
+
+.tools {
+ display: flex;
+ align-items: center;
+ padding: 8px;
+}
+
+.circle {
+ padding: 0 4px;
+}
+
+.box {
+ display: inline-block;
+ align-items: center;
+ width: 10px;
+ height: 10px;
+ padding: 1px;
+ border-radius: 50%;
+}
+
+.red {
+ background-color: #ff605c;
+}
+
+.yellow {
+ background-color: #ffbd44;
+}
+
+.green {
+ background-color: #00ca4e;
+}
+
+
+.bottom-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+}
+
+.bottom-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.bottom-bar li {
+  display: inline-block;
+  margin: 0 0px;
+}
+
+.bottom-bar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.insta {
+	width: 20%;
+}
+.tiktok {
+	width: 10%;
+}
+.linkedin {
+	width: 40%;
+}
+.logo {
+  width: 10%;
+}
+
+.presentation h1{
+  color: #8CC278;
+}
+
+.fiche {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #F4EAD5;
+  flex-grow: 1;
+}
+.fiche img {
+  width: 100px;
+  border-radius: 10px;
+  height: 100px;
+}
+
+
+.fiche h3 {
+  padding-center: 20px;
+  margin: 10px;
+}

@@ -1,0 +1,36 @@
+.navbar{
+	overflow:hidden;
+	 background-color: #333;
+	justify-content: space-between;
+  align-items: center;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	opacity: 100%;
+}
+ 
+#logo{
+	width: 20px;
+	height: 10px;
+}
+
+
+.navbar h1{
+	font-size: 20px;
+	float: left;
+	margin-left: 10px;
+}
+
+.nav-links {
+  float: right;
+}
+
+.nav-links a {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+h1 a{
+	vertical-align: center;
+}
+
